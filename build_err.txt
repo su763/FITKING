@@ -1,0 +1,79 @@
+  Generating the build script.
+  Reading the asset graph.
+  Checking for updates.
+  Updating the asset graph.
+  Building, incremental build.
+  0s json_serializable on 19 inputs; lib/main.dart
+  0s json_serializable on 19 inputs: 1 skipped; lib/src/core/config/app_config.dart
+  0s json_serializable on 19 inputs: 19 skipped
+  0s isar_community_generator on 19 inputs; lib/main.dart
+  0s isar_community_generator on 19 inputs: 19 skipped
+  0s source_gen:combining_builder on 19 inputs; lib/main.dart
+  0s source_gen:combining_builder on 19 inputs: 19 skipped
+  0s injectable_generator:injectable_builder on 38 inputs; lib/main.dart
+  0s injectable_generator:injectable_builder on 38 inputs: 38 skipped
+  0s injectable_generator:injectable_config_builder on 38 inputs; lib/main.dart
+  0s injectable_generator:injectable_config_builder on 38 inputs: 38 skipped
+  Running the post build.
+  Writing the asset graph.
+E json_serializable on lib/src/services/database/models/isar_food_item.dart:
+  line 1, column 756 of package:fitking/src/services/database/models/isar_food_item.dart: Could not resolve annotation for `class IsarFoodItem`.
+    ╷
+  1 │ @collection
+    │ ^^^^^^^^^^^
+    ╵
+E json_serializable on lib/src/services/database/models/isar_meal_log.dart:
+  line 1, column 1207 of package:fitking/src/services/database/models/isar_meal_log.dart: Could not resolve annotation for `class IsarLoggedEntry`.
+    ╷
+  1 │ @embedded
+    │ ^^^^^^^^^
+    ╵
+E isar_community_generator on lib/src/services/database/models/isar_food_item.dart:
+  line 1, column 756 of package:fitking/src/services/database/models/isar_food_item.dart: Could not resolve annotation for `class IsarFoodItem`.
+    ╷
+  1 │ @collection
+    │ ^^^^^^^^^^^
+    ╵
+E isar_community_generator on lib/src/services/database/models/isar_meal_log.dart:
+  line 1, column 1207 of package:fitking/src/services/database/models/isar_meal_log.dart: Could not resolve annotation for `class IsarLoggedEntry`.
+    ╷
+  1 │ @embedded
+    │ ^^^^^^^^^
+    ╵
+E injectable_generator:injectable_builder on lib/src/services/database/models/isar_food_item.dart:
+  line 1, column 756 of package:fitking/src/services/database/models/isar_food_item.dart: Could not resolve annotation for `class IsarFoodItem`.
+    ╷
+  1 │ @collection
+    │ ^^^^^^^^^^^
+    ╵
+E injectable_generator:injectable_builder on lib/src/services/database/models/isar_meal_log.dart:
+  line 1, column 1207 of package:fitking/src/services/database/models/isar_meal_log.dart: Could not resolve annotation for `class IsarLoggedEntry`.
+    ╷
+  1 │ @embedded
+    │ ^^^^^^^^^
+    ╵
+E injectable_generator:injectable_config_builder on lib/src/services/database/models/isar_food_item.dart:
+  line 1, column 756 of package:fitking/src/services/database/models/isar_food_item.dart: Could not resolve annotation for `class IsarFoodItem`.
+    ╷
+  1 │ @collection
+    │ ^^^^^^^^^^^
+    ╵
+E injectable_generator:injectable_config_builder on lib/src/services/database/models/isar_food_item.dart:
+  line 1, column 756 of package:fitking/src/services/database/models/isar_food_item.dart: Could not resolve annotation for `class IsarFoodItem`.
+    ╷
+  1 │ @collection
+    │ ^^^^^^^^^^^
+    ╵
+E injectable_generator:injectable_config_builder on lib/src/services/database/models/isar_meal_log.dart:
+  line 1, column 1207 of package:fitking/src/services/database/models/isar_meal_log.dart: Could not resolve annotation for `class IsarLoggedEntry`.
+    ╷
+  1 │ @embedded
+    │ ^^^^^^^^^
+    ╵
+E injectable_generator:injectable_config_builder on lib/src/services/database/models/isar_meal_log.dart:
+  line 1, column 1207 of package:fitking/src/services/database/models/isar_meal_log.dart: Could not resolve annotation for `class IsarLoggedEntry`.
+    ╷
+  1 │ @embedded
+    │ ^^^^^^^^^
+    ╵
+  Failed to build with build_runner in 2s; wrote 0 outputs.

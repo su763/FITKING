@@ -1,0 +1,758 @@
+﻿
+ΓöîΓöÇ New feature ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé   WebAssembly compilation is new. Understand the details before deploying to production. Γöé
+Γöé   See https://flutter.dev/to/wasm for more information.                                  Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+Compiling lib\main.dart for the Web...                          
+flutter : Target 
+dart2wasm failed: 
+ProcessException: 
+Process exited 
+abnormally with 
+exit code 254:
+At line:1 char:1
++ flutter build 
+web --wasm 2>&1 | 
+Out-File -Encoding 
+utf8 web_wasm_err. 
+...
++ ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo 
+             : No  
+  tSpecified: (T   
+ arget dart2was    
+... exit code     
+254::String) [    
+], RemoteExcep    
+tion
+    + FullyQualifi 
+   edErrorId : Na  
+  tiveCommandErr   
+ or
+ 
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/ffi-2.2.0/li
+b/src/allocation.da
+rt:5:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/query_build.da
+rt:3:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/isar_collectio
+n_impl.dart:5:1: 
+Error: 'dart:ffi' 
+can't be imported 
+when compiling to 
+Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/query_impl.dar
+t:4:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/open.dart:4:1:
+ Error: 'dart:ffi' 
+can't be imported 
+when compiling to 
+Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/isar_impl.dart
+:4:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/txn.dart:3:1: 
+Error: 'dart:ffi' 
+can't be imported 
+when compiling to 
+Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/isar_link_impl
+.dart:3:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/index_key.dart
+:3:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/split_words.da
+rt:1:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/isar_core.dart
+:4:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/ffi-2.2.0/li
+b/src/utf8.dart:6:1
+: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/ffi-2.2.0/li
+b/src/utf16.dart:5:
+1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/ffi-2.2.0/li
+b/src/arena.dart:8:
+1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/encode_string.
+dart:1:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi';
+^
+../../AppData/Local
+/Pub/Cache/hosted/p
+ub.dev/isar_communi
+ty-3.3.0/lib/src/na
+tive/bindings.dart:
+6:1: Error: 
+'dart:ffi' can't 
+be imported when 
+compiling to Wasm.
+import 'dart:ffi' 
+as ffi;
+^
+  Command: 
+C:\Users\suhayl sek
+ander\flutter\bin\c
+ache\dart-sdk\bin\d
+art.exe compile 
+wasm --packages=C:\
+Users\suhayl sekand
+er\Downloads\FITKIN
+G\.dart_tool\packag
+e_config.json --ext
+ra-compiler-option=
+--platform=C:\Users
+\suhayl sekander\fl
+utter\bin\cache\flu
+tter_web_sdk\kernel
+\dart2wasm_platform
+.dill -Ddart.vm.pro
+file=false -Ddart.v
+m.product=true --ex
+tra-compiler-option
+=--delete-tostring-
+package-uri=dart:ui
+ --extra-compiler-o
+ption=--delete-tost
+ring-package-uri=pa
+ckage:flutter --ext
+ra-compiler-option=
+--import-shared-mem
+ory --extra-compile
+r-option=--shared-m
+emory-max-pages=327
+68 -DFLUTTER_VERSIO
+N=3.32.4 -DFLUTTER_
+CHANNEL=stable -DFL
+UTTER_GIT_URL=https
+://github.com/flutt
+er/flutter.git -DFL
+UTTER_FRAMEWORK_REV
+ISION=6fba2447e9 -D
+FLUTTER_ENGINE_REVI
+SION=8cd19e509d -DF
+LUTTER_DART_VERSION
+=3.8.1 -DFLUTTER_WE
+B_USE_SKIA=false -D
+FLUTTER_WEB_USE_SKW
+ASM=true -DFLUTTER_
+WEB_CANVASKIT_URL=h
+ttps://www.gstatic.
+com/flutter-canvask
+it/8cd19e509d6bece8
+ccd74aef027c4ca9473
+63095/ --extra-comp
+iler-option=--depfi
+le=C:\Users\suhayl 
+sekander\Downloads\
+FITKING\.dart_tool\
+flutter_build\42b28
+971d47a9c68ec011d1e
+d322a4d7\dart2wasm.
+d -O2 --strip-wasm 
+--no-source-maps 
+-o C:\Users\suhayl 
+sekander\Downloads\
+FITKING\.dart_tool\
+flutter_build\42b28
+971d47a9c68ec011d1e
+d322a4d7\main.dart.
+wasm 
+C:\Users\suhayl sek
+ander\Downloads\FIT
+KING\.dart_tool\flu
+tter_build\42b28971
+d47a9c68ec011d1ed32
+2a4d7\main.dart
+#0      RunResult.t
+hrowException (pack
+age:flutter_tools/s
+rc/base/process.dar
+t:118:5)
+#1      _DefaultPro
+cessUtils.run (pack
+age:flutter_tools/s
+rc/base/process.dar
+t:344:19)
+<asynchronous 
+suspension>
+#2      Dart2WasmTa
+rget.build (package
+:flutter_tools/src/
+build_system/target
+s/web.dart:352:5)
+<asynchronous 
+suspension>
+#3      _BuildInsta
+nce._invokeInternal
+ (package:flutter_t
+ools/src/build_syst
+em/build_system.dar
+t:873:9)
+<asynchronous 
+suspension>
+#4      Future.wait
+.<anonymous 
+closure> (dart:asyn
+c/future.dart:525:2
+1)
+<asynchronous 
+suspension>
+#5      _BuildInsta
+nce.invokeTarget (p
+ackage:flutter_tool
+s/src/build_system/
+build_system.dart:8
+11:32)
+<asynchronous 
+suspension>
+#6      Future.wait
+.<anonymous 
+closure> (dart:asyn
+c/future.dart:525:2
+1)
+<asynchronous 
+suspension>
+#7      _BuildInsta
+nce.invokeTarget (p
+ackage:flutter_tool
+s/src/build_system/
+build_system.dart:8
+11:32)
+<asynchronous 
+suspension>
+#8      FlutterBuil
+dSystem.build (pack
+age:flutter_tools/s
+rc/build_system/bui
+ld_system.dart:629:
+16)
+<asynchronous 
+suspension>
+#9      WebBuilder.
+buildWeb (package:f
+lutter_tools/src/we
+b/compile.dart:91:3
+4)
+<asynchronous 
+suspension>
+#10     BuildWebCom
+mand.runCommand (pa
+ckage:flutter_tools
+/src/commands/build
+_web.dart:246:5)
+<asynchronous 
+suspension>
+#11     FlutterComm
+and.run.<anonymous 
+closure> (package:f
+lutter_tools/src/ru
+nner/flutter_comman
+d.dart:1563:27)
+<asynchronous 
+suspension>
+#12     AppContext.
+run.<anonymous 
+closure> (package:f
+lutter_tools/src/ba
+se/context.dart:154
+:19)
+<asynchronous 
+suspension>
+#13     CommandRunn
+er.runCommand (pack
+age:args/command_ru
+nner.dart:212:13)
+<asynchronous 
+suspension>
+#14     FlutterComm
+andRunner.runComman
+d.<anonymous 
+closure> (package:f
+lutter_tools/src/ru
+nner/flutter_comman
+d_runner.dart:494:9
+)
+<asynchronous 
+suspension>
+#15     AppContext.
+run.<anonymous 
+closure> (package:f
+lutter_tools/src/ba
+se/context.dart:154
+:19)
+<asynchronous 
+suspension>
+#16     FlutterComm
+andRunner.runComman
+d (package:flutter_
+tools/src/runner/fl
+utter_command_runne
+r.dart:431:5)
+<asynchronous 
+suspension>
+#17     
+run.<anonymous clos
+ure>.<anonymous 
+closure> (package:f
+lutter_tools/runner
+.dart:98:11)
+<asynchronous 
+suspension>
+#18     AppContext.
+run.<anonymous 
+closure> (package:f
+lutter_tools/src/ba
+se/context.dart:154
+:19)
+<asynchronous 
+suspension>
+#19     main (packa
+ge:flutter_tools/ex
+ecutable.dart:102:3
+)
+<asynchronous 
+suspension>
+
+Target dart2js 
+failed: 
+ProcessException: 
+Process exited 
+abnormally with 
+exit code 1:
+lib/src/services/da
+tabase/models/isar_
+food_item.g.dart:18
+:8:
+Error: The integer 
+literal 88564572091
+21923257 can't be 
+represented 
+exactly in 
+JavaScript.
+  id: -885645720912
+1923257,
+       
+^^^^^^^^^^^^^^^^^^^
+lib/src/services/da
+tabase/models/isar_
+food_item.g.dart:11
+8:11:
+Error: The integer 
+literal 68236794189
+06861405 can't be 
+represented 
+exactly in 
+JavaScript.
+      id: 682367941
+8906861405,
+          
+^^^^^^^^^^^^^^^^^^^
+lib/src/services/da
+tabase/models/isar_
+food_item.g.dart:13
+1:11:
+Error: The integer 
+literal 61455292210
+80171523 can't be 
+represented 
+exactly in 
+JavaScript.
+      id: 614552922
+1080171523,
+          
+^^^^^^^^^^^^^^^^^^^
+lib/src/services/da
+tabase/models/isar_
+meal_log.g.dart:18:
+7:
+Error: The integer 
+literal 59668533984
+11352583 can't be 
+represented 
+exactly in 
+JavaScript.
+  id: 5966853398411
+352583,
+      
+^^^^^^^^^^^^^^^^^^^
+lib/src/services/da
+tabase/models/isar_
+meal_log.g.dart:59:
+11:
+Error: The integer 
+literal 30896376062
+14822530 can't be 
+represented 
+exactly in 
+JavaScript.
+      id: 308963760
+6214822530,
+          
+^^^^^^^^^^^^^^^^^^^
+lib/src/services/da
+tabase/models/isar_
+meal_log.g.dart:72:
+11:
+Error: The integer 
+literal 18381987661
+03160564 can't be 
+represented 
+exactly in 
+JavaScript.
+      id: 183819876
+6103160564,
+          
+^^^^^^^^^^^^^^^^^^^
+lib/src/services/da
+tabase/models/isar_
+meal_log.g.dart:85:
+11:
+Error: The integer 
+literal 84048241018
+22155242 can't be 
+represented 
+exactly in 
+JavaScript.
+      id: 840482410
+1822155242,
+          
+^^^^^^^^^^^^^^^^^^^
+lib/src/services/da
+tabase/models/isar_
+meal_log.g.dart:150
+6:7:
+Error: The integer 
+literal 23091429144
+44168365 can't be 
+represented 
+exactly in 
+JavaScript.
+  id: 2309142914444
+168365,
+      
+^^^^^^^^^^^^^^^^^^^
+Error: Compilation 
+failed.
+  Command: 
+C:\Users\suhayl sek
+ander\flutter\bin\c
+ache\dart-sdk\bin\d
+art.exe compile js 
+--platform-binaries
+=C:\Users\suhayl se
+kander\flutter\bin\
+cache\flutter_web_s
+dk\kernel --invoker
+=flutter_tool -Ddar
+t.vm.product=true -
+DFLUTTER_VERSION=3.
+32.4 -DFLUTTER_CHAN
+NEL=stable -DFLUTTE
+R_GIT_URL=https://g
+ithub.com/flutter/f
+lutter.git -DFLUTTE
+R_FRAMEWORK_REVISIO
+N=6fba2447e9 -DFLUT
+TER_ENGINE_REVISION
+=8cd19e509d -DFLUTT
+ER_DART_VERSION=3.8
+.1 -DFLUTTER_WEB_US
+E_SKIA=true -DFLUTT
+ER_WEB_USE_SKWASM=f
+alse -DFLUTTER_WEB_
+CANVASKIT_URL=https
+://www.gstatic.com/
+flutter-canvaskit/8
+cd19e509d6bece8ccd7
+4aef027c4ca94736309
+5/ --native-null-as
+sertions 
+--no-source-maps 
+-o C:\Users\suhayl 
+sekander\Downloads\
+FITKING\.dart_tool\
+flutter_build\42b28
+971d47a9c68ec011d1e
+d322a4d7\app.dill -
+-packages=C:\Users\
+suhayl sekander\Dow
+nloads\FITKING\.dar
+t_tool\package_conf
+ig.json --cfe-only 
+C:\Users\suhayl sek
+ander\Downloads\FIT
+KING\.dart_tool\flu
+tter_build\42b28971
+d47a9c68ec011d1ed32
+2a4d7\main.dart
+#0      RunResult.t
+hrowException (pack
+age:flutter_tools/s
+rc/base/process.dar
+t:118:5)
+#1      _DefaultPro
+cessUtils.run (pack
+age:flutter_tools/s
+rc/base/process.dar
+t:344:19)
+<asynchronous 
+suspension>
+#2      Dart2JSTarg
+et.build (package:f
+lutter_tools/src/bu
+ild_system/targets/
+web.dart:201:5)
+<asynchronous 
+suspension>
+Compiling lib\main.dart for the Web...                              8.8s
+#3      _BuildInsta
+nce._invokeInternal
+ (package:flutter_t
+ools/src/build_syst
+em/build_system.dar
+t:873:9)
+<asynchronous 
+suspension>
+#4      Future.wait
+.<anonymous 
+closure> (dart:asyn
+c/future.dart:525:2
+1)
+<asynchronous 
+suspension>
+#5      _BuildInsta
+nce.invokeTarget (p
+ackage:flutter_tool
+s/src/build_system/
+build_system.dart:8
+11:32)
+<asynchronous 
+suspension>
+#6      Future.wait
+.<anonymous 
+closure> (dart:asyn
+c/future.dart:525:2
+1)
+<asynchronous 
+suspension>
+#7      _BuildInsta
+nce.invokeTarget (p
+ackage:flutter_tool
+s/src/build_system/
+build_system.dart:8
+11:32)
+<asynchronous 
+suspension>
+#8      FlutterBuil
+dSystem.build (pack
+age:flutter_tools/s
+rc/build_system/bui
+ld_system.dart:629:
+16)
+<asynchronous 
+suspension>
+#9      WebBuilder.
+buildWeb (package:f
+lutter_tools/src/we
+b/compile.dart:91:3
+4)
+<asynchronous 
+suspension>
+#10     BuildWebCom
+mand.runCommand (pa
+ckage:flutter_tools
+/src/commands/build
+_web.dart:246:5)
+<asynchronous 
+suspension>
+#11     FlutterComm
+and.run.<anonymous 
+closure> (package:f
+lutter_tools/src/ru
+nner/flutter_comman
+d.dart:1563:27)
+<asynchronous 
+suspension>
+#12     AppContext.
+run.<anonymous 
+closure> (package:f
+lutter_tools/src/ba
+se/context.dart:154
+:19)
+<asynchronous 
+suspension>
+#13     CommandRunn
+er.runCommand (pack
+age:args/command_ru
+nner.dart:212:13)
+<asynchronous 
+suspension>
+#14     FlutterComm
+andRunner.runComman
+d.<anonymous 
+closure> (package:f
+lutter_tools/src/ru
+nner/flutter_comman
+d_runner.dart:494:9
+)
+<asynchronous 
+suspension>
+#15     AppContext.
+run.<anonymous 
+closure> (package:f
+lutter_tools/src/ba
+se/context.dart:154
+:19)
+<asynchronous 
+suspension>
+#16     FlutterComm
+andRunner.runComman
+d (package:flutter_
+tools/src/runner/fl
+utter_command_runne
+r.dart:431:5)
+<asynchronous 
+suspension>
+#17     
+run.<anonymous clos
+ure>.<anonymous 
+closure> (package:f
+lutter_tools/runner
+.dart:98:11)
+<asynchronous 
+suspension>
+#18     AppContext.
+run.<anonymous 
+closure> (package:f
+lutter_tools/src/ba
+se/context.dart:154
+:19)
+<asynchronous 
+suspension>
+#19     main (packa
+ge:flutter_tools/ex
+ecutable.dart:102:3
+)
+<asynchronous 
+suspension>
+
+Error: Failed to 
+compile 
+application for 
+the Web.

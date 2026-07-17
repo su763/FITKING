@@ -1,0 +1,95 @@
+name: fitking
+description: A cross-platform calorie and macro tracking application for iOS, Android, and Desktop.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── State Management ──────────────────────────────────────────────────────
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # ── Dependency Injection ──────────────────────────────────────────────────
+  get_it: ^8.0.3
+  injectable: ^2.4.4
+
+  # ── Local Storage (Isar) ─────────────────────────────────────────────────
+  isar_community: 3.3.0
+  isar_community_flutter_libs: 3.3.0   # Precompiled native binaries for all platforms
+
+  # ── Networking ────────────────────────────────────────────────────────────
+  dio: ^5.7.0
+  pretty_dio_logger: ^1.4.0
+  connectivity_plus: ^6.1.0
+
+  # ── Responsive / Adaptive UI ──────────────────────────────────────────────
+  responsive_framework: ^1.5.1
+  flutter_screenutil: ^5.9.3
+
+  # ── Navigation ────────────────────────────────────────────────────────────
+  go_router: ^14.6.2
+
+  # ── Serialization ─────────────────────────────────────────────────────────
+  json_annotation: ^4.9.0
+
+  # ── Utilities ─────────────────────────────────────────────────────────────
+  dartz: ^0.10.1          # Functional programming (Either / Option)
+  uuid: ^4.5.1            # UUID generation
+  intl: ^0.19.0           # Date / number formatting
+  logger: ^2.5.0          # Structured logging
+  path_provider: ^2.1.5   # Platform-aware paths for Hive init
+  rxdart: ^0.27.7         # Reactive stream extensions
+
+  # ── UI Components ─────────────────────────────────────────────────────────
+  flutter_svg: ^2.0.17
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  fl_chart: ^0.69.0       # Macro progress charts
+  lottie: ^3.2.0          # Animations
+  gap: ^3.0.1             # Spacing widget
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  # ── Code Generation ────────────────────────────────────────────────────
+  build_runner: ^2.4.13
+  isar_community_generator: 3.3.0
+  json_serializable: ^6.9.0
+  injectable_generator: ^2.6.2
+
+  # ── Testing ───────────────────────────────────────────────────────────────
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  
+  # I've commented these out for now so the app can build. 
+  # You can uncomment these (remove the '#' symbols) once you actually create 
+  # the 'assets' folder and add your images and fonts into your project directory.
+  #
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  #   - assets/animations/
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/Inter-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Inter-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
