@@ -8,7 +8,9 @@ plugins {
 android {
     namespace = "com.example.fitking"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    
+    // Hardcoded NDK version to satisfy connectivity_plus and isar_community
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
